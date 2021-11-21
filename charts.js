@@ -137,7 +137,7 @@ function buildCharts(sample) {
     {
       domain: { x: [0, 1], y: [0, 1] },
       value: washFreq,
-      title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per week"},
+      title: { text: "<b>Belly Button Washing Frequency</b><br>Number of Scrubs per week"},
       type: "indicator",
       mode: "gauge+number",
       gauge: {
@@ -167,7 +167,7 @@ function buildCharts(sample) {
       xanchor: 'center',
       y: 0,
       yanchor: 'center',
-      text: "The gauge displays your belly button weekly washing frequency",
+      text: "The gauge displays how often the belly button is washed",
       showarrow: false
     }]
   };
